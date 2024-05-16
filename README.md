@@ -31,5 +31,6 @@ meson setup builddir
 just run # only running `just` also works
 # or
 meson compile -C builddir
+./builddir/hallo
 ```
 

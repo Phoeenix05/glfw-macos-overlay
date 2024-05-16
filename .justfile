@@ -1,5 +1,6 @@
 run:
-	meson compile -C builddir && ./builddir/hallo
+	meson compile -C builddir
+	./builddir/hallo
 
 setup:
 	brew install glfw
